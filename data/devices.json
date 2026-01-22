@@ -1,0 +1,619 @@
+{
+  "brands": [
+    "Apple",
+    "Samsung",
+    "Xiaomi",
+    "OnePlus",
+    "Google",
+    "Vivo",
+    "Oppo",
+    "Realme",
+    "Nothing",
+    "Motorola"
+  ],
+  "devices": [
+    {
+      "id": "iphone-15-pro-max",
+      "brand": "Apple",
+      "model": "iPhone 15 Pro Max",
+      "variants": [
+        { "storage": "256GB", "price": { "usd": 1199, "pkr": 335000 } },
+        { "storage": "512GB", "price": { "usd": 1399, "pkr": 390000 } },
+        { "storage": "1TB", "price": { "usd": 1599, "pkr": 445000 } }
+      ],
+      "releaseDate": "2023-09-22",
+      "popularity": 100
+    },
+    {
+      "id": "iphone-15-pro",
+      "brand": "Apple",
+      "model": "iPhone 15 Pro",
+      "variants": [
+        { "storage": "128GB", "price": { "usd": 999, "pkr": 279000 } },
+        { "storage": "256GB", "price": { "usd": 1099, "pkr": 307000 } },
+        { "storage": "512GB", "price": { "usd": 1299, "pkr": 362000 } }
+      ],
+      "releaseDate": "2023-09-22",
+      "popularity": 95
+    },
+    {
+      "id": "iphone-15",
+      "brand": "Apple",
+      "model": "iPhone 15",
+      "variants": [
+        { "storage": "128GB", "price": { "usd": 799, "pkr": 223000 } },
+        { "storage": "256GB", "price": { "usd": 899, "pkr": 251000 } },
+        { "storage": "512GB", "price": { "usd": 1099, "pkr": 307000 } }
+      ],
+      "releaseDate": "2023-09-22",
+      "popularity": 90
+    },
+    {
+      "id": "iphone-15-plus",
+      "brand": "Apple",
+      "model": "iPhone 15 Plus",
+      "variants": [
+        { "storage": "128GB", "price": { "usd": 899, "pkr": 251000 } },
+        { "storage": "256GB", "price": { "usd": 999, "pkr": 279000 } },
+        { "storage": "512GB", "price": { "usd": 1199, "pkr": 335000 } }
+      ],
+      "releaseDate": "2023-09-22",
+      "popularity": 87
+    },
+    {
+      "id": "iphone-14-pro-max",
+      "brand": "Apple",
+      "model": "iPhone 14 Pro Max",
+      "variants": [
+        { "storage": "128GB", "price": { "usd": 999, "pkr": 279000 } },
+        { "storage": "256GB", "price": { "usd": 1099, "pkr": 307000 } },
+        { "storage": "512GB", "price": { "usd": 1299, "pkr": 362000 } }
+      ],
+      "releaseDate": "2022-09-16",
+      "popularity": 85
+    },
+    {
+      "id": "iphone-14-pro",
+      "brand": "Apple",
+      "model": "iPhone 14 Pro",
+      "variants": [
+        { "storage": "128GB", "price": { "usd": 899, "pkr": 251000 } },
+        { "storage": "256GB", "price": { "usd": 999, "pkr": 279000 } },
+        { "storage": "512GB", "price": { "usd": 1199, "pkr": 335000 } }
+      ],
+      "releaseDate": "2022-09-16",
+      "popularity": 82
+    },
+    {
+      "id": "iphone-14",
+      "brand": "Apple",
+      "model": "iPhone 14",
+      "variants": [
+        { "storage": "128GB", "price": { "usd": 699, "pkr": 195000 } },
+        { "storage": "256GB", "price": { "usd": 799, "pkr": 223000 } },
+        { "storage": "512GB", "price": { "usd": 999, "pkr": 279000 } }
+      ],
+      "releaseDate": "2022-09-16",
+      "popularity": 78
+    },
+    {
+      "id": "iphone-13",
+      "brand": "Apple",
+      "model": "iPhone 13",
+      "variants": [
+        { "storage": "128GB", "price": { "usd": 599, "pkr": 167000 } },
+        { "storage": "256GB", "price": { "usd": 699, "pkr": 195000 } },
+        { "storage": "512GB", "price": { "usd": 899, "pkr": 251000 } }
+      ],
+      "releaseDate": "2021-09-24",
+      "popularity": 75
+    },
+    {
+      "id": "samsung-s24-ultra",
+      "brand": "Samsung",
+      "model": "Galaxy S24 Ultra",
+      "variants": [
+        { "storage": "256GB", "price": { "usd": 1299, "pkr": 362000 } },
+        { "storage": "512GB", "price": { "usd": 1419, "pkr": 396000 } },
+        { "storage": "1TB", "price": { "usd": 1659, "pkr": 463000 } }
+      ],
+      "releaseDate": "2024-01-31",
+      "popularity": 88
+    },
+    {
+      "id": "samsung-s24-plus",
+      "brand": "Samsung",
+      "model": "Galaxy S24 Plus",
+      "variants": [
+        { "storage": "256GB", "price": { "usd": 999, "pkr": 279000 } },
+        { "storage": "512GB", "price": { "usd": 1119, "pkr": 312000 } }
+      ],
+      "releaseDate": "2024-01-31",
+      "popularity": 84
+    },
+    {
+      "id": "samsung-s24",
+      "brand": "Samsung",
+      "model": "Galaxy S24",
+      "variants": [
+        { "storage": "128GB", "price": { "usd": 799, "pkr": 223000 } },
+        { "storage": "256GB", "price": { "usd": 859, "pkr": 240000 } }
+      ],
+      "releaseDate": "2024-01-31",
+      "popularity": 82
+    },
+    {
+      "id": "samsung-s23-ultra",
+      "brand": "Samsung",
+      "model": "Galaxy S23 Ultra",
+      "variants": [
+        { "storage": "256GB", "price": { "usd": 1199, "pkr": 335000 } },
+        { "storage": "512GB", "price": { "usd": 1379, "pkr": 385000 } }
+      ],
+      "releaseDate": "2023-02-17",
+      "popularity": 80
+    },
+    {
+      "id": "samsung-s23",
+      "brand": "Samsung",
+      "model": "Galaxy S23",
+      "variants": [
+        { "storage": "128GB", "price": { "usd": 799, "pkr": 223000 } },
+        { "storage": "256GB", "price": { "usd": 859, "pkr": 240000 } }
+      ],
+      "releaseDate": "2023-02-17",
+      "popularity": 76
+    },
+    {
+      "id": "samsung-z-fold-5",
+      "brand": "Samsung",
+      "model": "Galaxy Z Fold 5",
+      "variants": [
+        { "storage": "256GB", "price": { "usd": 1799, "pkr": 502000 } },
+        { "storage": "512GB", "price": { "usd": 1919, "pkr": 536000 } },
+        { "storage": "1TB", "price": { "usd": 2159, "pkr": 603000 } }
+      ],
+      "releaseDate": "2023-08-11",
+      "popularity": 73
+    },
+    {
+      "id": "samsung-z-flip-5",
+      "brand": "Samsung",
+      "model": "Galaxy Z Flip 5",
+      "variants": [
+        { "storage": "256GB", "price": { "usd": 999, "pkr": 279000 } },
+        { "storage": "512GB", "price": { "usd": 1119, "pkr": 312000 } }
+      ],
+      "releaseDate": "2023-08-11",
+      "popularity": 71
+    },
+    {
+      "id": "samsung-a54",
+      "brand": "Samsung",
+      "model": "Galaxy A54 5G",
+      "variants": [
+        { "storage": "128GB", "price": { "usd": 449, "pkr": 125000 } },
+        { "storage": "256GB", "price": { "usd": 499, "pkr": 139000 } }
+      ],
+      "releaseDate": "2023-03-24",
+      "popularity": 68
+    },
+    {
+      "id": "xiaomi-14-pro",
+      "brand": "Xiaomi",
+      "model": "Xiaomi 14 Pro",
+      "variants": [
+        { "storage": "256GB", "price": { "usd": 999, "pkr": 279000 } },
+        { "storage": "512GB", "price": { "usd": 1099, "pkr": 307000 } }
+      ],
+      "releaseDate": "2024-02-25",
+      "popularity": 75
+    },
+    {
+      "id": "xiaomi-14",
+      "brand": "Xiaomi",
+      "model": "Xiaomi 14",
+      "variants": [
+        { "storage": "256GB", "price": { "usd": 799, "pkr": 223000 } },
+        { "storage": "512GB", "price": { "usd": 899, "pkr": 251000 } }
+      ],
+      "releaseDate": "2024-02-25",
+      "popularity": 72
+    },
+    {
+      "id": "xiaomi-13-pro",
+      "brand": "Xiaomi",
+      "model": "Xiaomi 13 Pro",
+      "variants": [
+        { "storage": "256GB", "price": { "usd": 899, "pkr": 251000 } },
+        { "storage": "512GB", "price": { "usd": 999, "pkr": 279000 } }
+      ],
+      "releaseDate": "2023-02-26",
+      "popularity": 69
+    },
+    {
+      "id": "xiaomi-13",
+      "brand": "Xiaomi",
+      "model": "Xiaomi 13",
+      "variants": [
+        { "storage": "128GB", "price": { "usd": 699, "pkr": 195000 } },
+        { "storage": "256GB", "price": { "usd": 799, "pkr": 223000 } }
+      ],
+      "releaseDate": "2023-02-26",
+      "popularity": 66
+    },
+    {
+      "id": "xiaomi-13t-pro",
+      "brand": "Xiaomi",
+      "model": "Xiaomi 13T Pro",
+      "variants": [
+        { "storage": "256GB", "price": { "usd": 649, "pkr": 181000 } },
+        { "storage": "512GB", "price": { "usd": 749, "pkr": 209000 } }
+      ],
+      "releaseDate": "2023-09-26",
+      "popularity": 64
+    },
+    {
+      "id": "xiaomi-redmi-note-13-pro",
+      "brand": "Xiaomi",
+      "model": "Redmi Note 13 Pro",
+      "variants": [
+        { "storage": "128GB", "price": { "usd": 299, "pkr": 83500 } },
+        { "storage": "256GB", "price": { "usd": 349, "pkr": 97500 } }
+      ],
+      "releaseDate": "2024-01-04",
+      "popularity": 62
+    },
+    {
+      "id": "oneplus-12",
+      "brand": "OnePlus",
+      "model": "OnePlus 12",
+      "variants": [
+        { "storage": "256GB", "price": { "usd": 799, "pkr": 223000 } },
+        { "storage": "512GB", "price": { "usd": 899, "pkr": 251000 } }
+      ],
+      "releaseDate": "2024-01-23",
+      "popularity": 72
+    },
+    {
+      "id": "oneplus-12r",
+      "brand": "OnePlus",
+      "model": "OnePlus 12R",
+      "variants": [
+        { "storage": "128GB", "price": { "usd": 499, "pkr": 139000 } },
+        { "storage": "256GB", "price": { "usd": 599, "pkr": 167000 } }
+      ],
+      "releaseDate": "2024-01-23",
+      "popularity": 68
+    },
+    {
+      "id": "oneplus-11",
+      "brand": "OnePlus",
+      "model": "OnePlus 11",
+      "variants": [
+        { "storage": "128GB", "price": { "usd": 699, "pkr": 195000 } },
+        { "storage": "256GB", "price": { "usd": 799, "pkr": 223000 } }
+      ],
+      "releaseDate": "2023-02-07",
+      "popularity": 65
+    },
+    {
+      "id": "oneplus-open",
+      "brand": "OnePlus",
+      "model": "OnePlus Open",
+      "variants": [
+        { "storage": "512GB", "price": { "usd": 1699, "pkr": 474000 } }
+      ],
+      "releaseDate": "2023-10-19",
+      "popularity": 63
+    },
+    {
+      "id": "oneplus-nord-3",
+      "brand": "OnePlus",
+      "model": "OnePlus Nord 3",
+      "variants": [
+        { "storage": "128GB", "price": { "usd": 399, "pkr": 111000 } },
+        { "storage": "256GB", "price": { "usd": 449, "pkr": 125000 } }
+      ],
+      "releaseDate": "2023-07-05",
+      "popularity": 60
+    },
+    {
+      "id": "google-pixel-8-pro",
+      "brand": "Google",
+      "model": "Pixel 8 Pro",
+      "variants": [
+        { "storage": "128GB", "price": { "usd": 999, "pkr": 279000 } },
+        { "storage": "256GB", "price": { "usd": 1059, "pkr": 296000 } },
+        { "storage": "512GB", "price": { "usd": 1179, "pkr": 329000 } }
+      ],
+      "releaseDate": "2023-10-12",
+      "popularity": 70
+    },
+    {
+      "id": "google-pixel-8",
+      "brand": "Google",
+      "model": "Pixel 8",
+      "variants": [
+        { "storage": "128GB", "price": { "usd": 699, "pkr": 195000 } },
+        { "storage": "256GB", "price": { "usd": 759, "pkr": 212000 } }
+      ],
+      "releaseDate": "2023-10-12",
+      "popularity": 67
+    },
+    {
+      "id": "google-pixel-7-pro",
+      "brand": "Google",
+      "model": "Pixel 7 Pro",
+      "variants": [
+        { "storage": "128GB", "price": { "usd": 899, "pkr": 251000 } },
+        { "storage": "256GB", "price": { "usd": 999, "pkr": 279000 } }
+      ],
+      "releaseDate": "2022-10-13",
+      "popularity": 64
+    },
+    {
+      "id": "google-pixel-7a",
+      "brand": "Google",
+      "model": "Pixel 7a",
+      "variants": [
+        { "storage": "128GB", "price": { "usd": 499, "pkr": 139000 } }
+      ],
+      "releaseDate": "2023-05-10",
+      "popularity": 61
+    },
+    {
+      "id": "vivo-x100-pro",
+      "brand": "Vivo",
+      "model": "Vivo X100 Pro",
+      "variants": [
+        { "storage": "256GB", "price": { "usd": 999, "pkr": 279000 } },
+        { "storage": "512GB", "price": { "usd": 1099, "pkr": 307000 } }
+      ],
+      "releaseDate": "2024-01-04",
+      "popularity": 69
+    },
+    {
+      "id": "vivo-x100",
+      "brand": "Vivo",
+      "model": "Vivo X100",
+      "variants": [
+        { "storage": "256GB", "price": { "usd": 799, "pkr": 223000 } },
+        { "storage": "512GB", "price": { "usd": 899, "pkr": 251000 } }
+      ],
+      "releaseDate": "2024-01-04",
+      "popularity": 66
+    },
+    {
+      "id": "vivo-v29-pro",
+      "brand": "Vivo",
+      "model": "Vivo V29 Pro",
+      "variants": [
+        { "storage": "256GB", "price": { "usd": 449, "pkr": 125000 } },
+        { "storage": "512GB", "price": { "usd": 549, "pkr": 153000 } }
+      ],
+      "releaseDate": "2023-10-04",
+      "popularity": 63
+    },
+    {
+      "id": "vivo-v29",
+      "brand": "Vivo",
+      "model": "Vivo V29",
+      "variants": [
+        { "storage": "128GB", "price": { "usd": 349, "pkr": 97500 } },
+        { "storage": "256GB", "price": { "usd": 399, "pkr": 111000 } }
+      ],
+      "releaseDate": "2023-10-04",
+      "popularity": 60
+    },
+    {
+      "id": "vivo-y100",
+      "brand": "Vivo",
+      "model": "Vivo Y100",
+      "variants": [
+        { "storage": "128GB", "price": { "usd": 299, "pkr": 83500 } },
+        { "storage": "256GB", "price": { "usd": 349, "pkr": 97500 } }
+      ],
+      "releaseDate": "2024-02-20",
+      "popularity": 57
+    },
+    {
+      "id": "oppo-find-x7-ultra",
+      "brand": "Oppo",
+      "model": "Find X7 Ultra",
+      "variants": [
+        { "storage": "256GB", "price": { "usd": 1099, "pkr": 307000 } },
+        { "storage": "512GB", "price": { "usd": 1199, "pkr": 335000 } }
+      ],
+      "releaseDate": "2024-01-08",
+      "popularity": 68
+    },
+    {
+      "id": "oppo-find-x7",
+      "brand": "Oppo",
+      "model": "Find X7",
+      "variants": [
+        { "storage": "256GB", "price": { "usd": 799, "pkr": 223000 } },
+        { "storage": "512GB", "price": { "usd": 899, "pkr": 251000 } }
+      ],
+      "releaseDate": "2024-01-08",
+      "popularity": 65
+    },
+    {
+      "id": "oppo-reno-11-pro",
+      "brand": "Oppo",
+      "model": "Reno 11 Pro",
+      "variants": [
+        { "storage": "256GB", "price": { "usd": 499, "pkr": 139000 } },
+        { "storage": "512GB", "price": { "usd": 599, "pkr": 167000 } }
+      ],
+      "releaseDate": "2024-01-11",
+      "popularity": 62
+    },
+    {
+      "id": "oppo-reno-11",
+      "brand": "Oppo",
+      "model": "Reno 11",
+      "variants": [
+        { "storage": "128GB", "price": { "usd": 399, "pkr": 111000 } },
+        { "storage": "256GB", "price": { "usd": 449, "pkr": 125000 } }
+      ],
+      "releaseDate": "2024-01-11",
+      "popularity": 59
+    },
+    {
+      "id": "oppo-a78",
+      "brand": "Oppo",
+      "model": "Oppo A78",
+      "variants": [
+        { "storage": "128GB", "price": { "usd": 249, "pkr": 69500 } },
+        { "storage": "256GB", "price": { "usd": 299, "pkr": 83500 } }
+      ],
+      "releaseDate": "2023-08-18",
+      "popularity": 56
+    },
+    {
+      "id": "realme-gt-5-pro",
+      "brand": "Realme",
+      "model": "Realme GT 5 Pro",
+      "variants": [
+        { "storage": "256GB", "price": { "usd": 599, "pkr": 167000 } },
+        { "storage": "512GB", "price": { "usd": 699, "pkr": 195000 } }
+      ],
+      "releaseDate": "2023-12-07",
+      "popularity": 64
+    },
+    {
+      "id": "realme-gt-5",
+      "brand": "Realme",
+      "model": "Realme GT 5",
+      "variants": [
+        { "storage": "256GB", "price": { "usd": 449, "pkr": 125000 } },
+        { "storage": "512GB", "price": { "usd": 549, "pkr": 153000 } }
+      ],
+      "releaseDate": "2023-08-28",
+      "popularity": 61
+    },
+    {
+      "id": "realme-12-pro-plus",
+      "brand": "Realme",
+      "model": "Realme 12 Pro+",
+      "variants": [
+        { "storage": "256GB", "price": { "usd": 399, "pkr": 111000 } },
+        { "storage": "512GB", "price": { "usd": 449, "pkr": 125000 } }
+      ],
+      "releaseDate": "2024-01-29",
+      "popularity": 58
+    },
+    {
+      "id": "realme-12-pro",
+      "brand": "Realme",
+      "model": "Realme 12 Pro",
+      "variants": [
+        { "storage": "128GB", "price": { "usd": 299, "pkr": 83500 } },
+        { "storage": "256GB", "price": { "usd": 349, "pkr": 97500 } }
+      ],
+      "releaseDate": "2024-01-29",
+      "popularity": 55
+    },
+    {
+      "id": "realme-c67",
+      "brand": "Realme",
+      "model": "Realme C67",
+      "variants": [
+        { "storage": "128GB", "price": { "usd": 199, "pkr": 55500 } },
+        { "storage": "256GB", "price": { "usd": 229, "pkr": 64000 } }
+      ],
+      "releaseDate": "2023-12-14",
+      "popularity": 52
+    },
+    {
+      "id": "nothing-phone-2",
+      "brand": "Nothing",
+      "model": "Nothing Phone (2)",
+      "variants": [
+        { "storage": "256GB", "price": { "usd": 599, "pkr": 167000 } },
+        { "storage": "512GB", "price": { "usd": 699, "pkr": 195000 } }
+      ],
+      "releaseDate": "2023-07-11",
+      "popularity": 67
+    },
+    {
+      "id": "nothing-phone-2a",
+      "brand": "Nothing",
+      "model": "Nothing Phone (2a)",
+      "variants": [
+        { "storage": "128GB", "price": { "usd": 349, "pkr": 97500 } },
+        { "storage": "256GB", "price": { "usd": 399, "pkr": 111000 } }
+      ],
+      "releaseDate": "2024-03-05",
+      "popularity": 63
+    },
+    {
+      "id": "nothing-phone-1",
+      "brand": "Nothing",
+      "model": "Nothing Phone (1)",
+      "variants": [
+        { "storage": "128GB", "price": { "usd": 399, "pkr": 111000 } },
+        { "storage": "256GB", "price": { "usd": 449, "pkr": 125000 } }
+      ],
+      "releaseDate": "2022-07-12",
+      "popularity": 59
+    },
+    {
+      "id": "motorola-edge-50-pro",
+      "brand": "Motorola",
+      "model": "Edge 50 Pro",
+      "variants": [
+        { "storage": "256GB", "price": { "usd": 599, "pkr": 167000 } },
+        { "storage": "512GB", "price": { "usd": 699, "pkr": 195000 } }
+      ],
+      "releaseDate": "2024-04-03",
+      "popularity": 62
+    },
+    {
+      "id": "motorola-edge-40-pro",
+      "brand": "Motorola",
+      "model": "Edge 40 Pro",
+      "variants": [
+        { "storage": "256GB", "price": { "usd": 549, "pkr": 153000 } },
+        { "storage": "512GB", "price": { "usd": 649, "pkr": 181000 } }
+      ],
+      "releaseDate": "2023-04-04",
+      "popularity": 59
+    },
+    {
+      "id": "motorola-razr-40-ultra",
+      "brand": "Motorola",
+      "model": "Razr 40 Ultra",
+      "variants": [
+        { "storage": "256GB", "price": { "usd": 999, "pkr": 279000 } },
+        { "storage": "512GB", "price": { "usd": 1099, "pkr": 307000 } }
+      ],
+      "releaseDate": "2023-06-01",
+      "popularity": 57
+    },
+    {
+      "id": "motorola-g84",
+      "brand": "Motorola",
+      "model": "Moto G84",
+      "variants": [
+        { "storage": "128GB", "price": { "usd": 299, "pkr": 83500 } },
+        { "storage": "256GB", "price": { "usd": 349, "pkr": 97500 } }
+      ],
+      "releaseDate": "2023-09-01",
+      "popularity": 54
+    },
+    {
+      "id": "motorola-g54",
+      "brand": "Motorola",
+      "model": "Moto G54",
+      "variants": [
+        { "storage": "128GB", "price": { "usd": 219, "pkr": 61000 } },
+        { "storage": "256GB", "price": { "usd": 249, "pkr": 69500 } }
+      ],
+      "releaseDate": "2023-09-06",
+      "popularity": 51
+    }
+  ]
+}

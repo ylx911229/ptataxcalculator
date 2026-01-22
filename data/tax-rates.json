@@ -1,0 +1,42 @@
+{
+  "currentRate": {
+    "id": "2025-01",
+    "effectiveDate": "2025-01-01",
+    "expiryDate": null,
+    "rates": {
+      "cnic": {
+        "customsDuty": 0,
+        "salesTax": 17,
+        "withholdingTax": 1,
+        "regulatoryDuty": 0
+      },
+      "passport": {
+        "customsDuty": 25,
+        "salesTax": 17,
+        "withholdingTax": 5,
+        "regulatoryDuty": 0
+      }
+    }
+  },
+  "history": [
+    {
+      "id": "2024-01",
+      "effectiveDate": "2024-01-01",
+      "expiryDate": "2024-12-31",
+      "rates": {
+        "cnic": {
+          "customsDuty": 0,
+          "salesTax": 17,
+          "withholdingTax": 1,
+          "regulatoryDuty": 0
+        },
+        "passport": {
+          "customsDuty": 25,
+          "salesTax": 17,
+          "withholdingTax": 5,
+          "regulatoryDuty": 0
+        }
+      }
+    }
+  ]
+}
