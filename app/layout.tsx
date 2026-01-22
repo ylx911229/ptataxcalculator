@@ -54,6 +54,17 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-GL275L5XHS"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-GL275L5XHS');
+            `,
+          }}
+        />
         <link rel="canonical" href="https://ptataxcalculator.org" />
         <link rel="icon" href="/favicon.ico" sizes="32x32" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
